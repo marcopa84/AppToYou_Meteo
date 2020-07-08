@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Map from './map';
 import * as serviceWorker from './serviceWorker';
+import Weather from './weather';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Map />
+    <Weather />
   </React.StrictMode>,
   document.getElementById('root')
 );
